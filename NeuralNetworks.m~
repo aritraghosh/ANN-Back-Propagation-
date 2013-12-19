@@ -27,7 +27,7 @@ for(i=1:N)
   truelabel(i,y(i))=1;
 end
 
-% All the notations followed are in accordance with Elements of Statistic Learning Chpter-11(11.4)
+
 for loop=1:loopscount
     
     Z=[ones(N,1),sigma(X*alpha')];
